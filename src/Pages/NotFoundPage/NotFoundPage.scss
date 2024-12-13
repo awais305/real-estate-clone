@@ -1,0 +1,17 @@
+.not_found_page {
+    height: calc(100vh - var(--appbarHeight));
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+}

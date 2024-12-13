@@ -1,0 +1,162 @@
+@import '/src/mixins.scss';
+
+.landing_section {
+    // height: 600px; 
+    width: 100%;
+    background-color: #EFF2F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
+
+    @include tabAndBelow {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    @include mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .width_wrapper {
+        max-width: var(--maxWidth);
+        padding-top: 130px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+
+        @include tabAndBelow {
+            padding: 30px 25px 0 25px;
+            flex-direction: column-reverse;
+        }
+
+        .left_side_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .main_text_wrapper {
+                margin-right: 27px;
+
+                @include tabAndBelow {
+                    margin-right: 0;
+                    text-align: center;
+                }
+
+                .title {
+                    margin-top: 30px;
+                    font-size: 42px;
+                    font-weight: 700;
+
+                    @include mobile {
+                        font-size: 25px;
+                    }
+                }
+
+                .subtitle {
+                    margin-top: 20px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: var(--black);
+
+                    @include mobile {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .counts_wrapper {
+                display: flex;
+                margin-bottom: 46px;
+                width: 100%;
+                gap: 64px;
+                margin-top: 30px;
+
+                @include tabAndBelow {
+                    gap: 0;
+                    justify-content: space-around;
+                }
+
+                .counts {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+                    .numbers {
+                        font-size: 32px;
+                        font-weight: 700;
+
+                        @include mobile {
+                            font-size: 22px;
+                        }
+                    }
+
+                    .numbers_for {
+                        font-size: 12px;
+                        font-weight: 300;
+                        color: var(--black);
+                    }
+                }
+            }
+        }
+
+        .property_image_container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all ease-in-out 0.3s;
+
+            .property_image {
+                // width: 406px;
+                height: 469.55px;
+                top: 207.98px;
+                left: 942.42px;
+                border-radius: 271.37px 271.37px 10px 10px;
+                transition: all ease-in-out 0.3s;
+
+                @include mobile {
+                    height: 400.55px;
+                    width: 330px;
+                    object-fit: cover;
+                }
+            }
+
+            .logo {
+                position: absolute;
+                top: -70px;
+                left: 0px;
+                height: 98px;
+                width: 98px;
+
+                @include tabAndBelow {
+                    display: none;
+                }
+            }
+
+        }
+
+        .mobile_filter {
+            display: none;
+
+            @include tabAndBelow {
+                display: block;
+            }
+        }
+
+        .desktop_filter {
+            position: absolute;
+            bottom: 0;
+
+            @include tabAndBelow {
+                display: none;
+            }
+        }
+
+    }
+}

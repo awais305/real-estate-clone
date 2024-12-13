@@ -1,0 +1,203 @@
+@import '../../../mixins.scss';
+
+.register_page {
+    position: relative;
+    width: 100%;
+    margin-top: -76px;
+
+    .container {
+        position: absolute;
+        padding: 40px;
+        width: 860px;
+        background-color: white;
+        border-radius: 10px;
+        z-index: 9;
+        transition: all ease-in-out 0.5s;
+        left: 50%;
+        transform: translateX(- 50%);
+        margin-top: 100px;
+
+        @include tabAndBelow {
+            width: 500px;
+        }
+
+        @include smallMobile {
+            width: 300px;
+            padding: 25px 40px;
+        }
+
+
+        .register_heading {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 15px;
+
+            @include smallMobile {
+                font-size: 26px;
+            }
+        }
+
+
+
+
+        p {
+            width: 90%;
+            text-align: center;
+            border-bottom: 1px solid #2E2E2E;
+            line-height: 0.1em;
+            margin: 20px 20px 30px 20px;
+        }
+
+        p span {
+            background: #fff;
+            font-size: 15px;
+            font-weight: 400;
+            padding: 0 10px;
+
+            @include smallMobile {
+                font-size: 13px;
+
+            }
+        }
+
+        .already_account {
+            margin-top: 26px;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 400;
+
+            &.signup {
+                font-weight: 700;
+                color: var(--primary);
+                margin-left: 5px;
+                cursor: pointer;
+            }
+
+            @include smallMobile {
+                font-size: 13px;
+            }
+        }
+
+        .social_buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .form_button {
+
+            @include smallMobile {
+                height: 46px !important;
+                font-size: 13px !important;
+            }
+        }
+
+
+        .form_fields {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: space-between;
+
+            .gender_section {
+                width: calc(50% - 30px);
+
+                @include tabAndBelow {
+                    width: 100%;
+                    margin-right: 0;
+                }
+
+                span {
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+
+                .gender_radio {
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    // border: 1px solid #7AA6FF;
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    box-sizing: border-box;
+                }
+            }
+
+            .form_text_field {
+                width: calc(50% - 30px);
+                box-sizing: border-box;
+
+                @include tabAndBelow {
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .finalize_buttons_wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+
+            .finalize_buttons {
+                max-width: 377px;
+                width: 100%;
+
+                p {
+                    width: 90%;
+                    text-align: center;
+                    border-bottom: 1px solid #2E2E2E;
+                    line-height: 0.1em;
+                    margin: 20px 20px 30px 20px;
+                }
+
+                p span {
+                    background: #fff;
+                    font-size: 15px;
+                    font-weight: 400;
+                    padding: 0 10px;
+
+                    @include smallMobile {
+                        font-size: 13px;
+
+                    }
+                }
+
+
+                .social_buttons {
+                    width: 100%;
+                    display: flex;
+                    gap: 20px;
+                    justify-content: center;
+                }
+
+                .already_account {
+                    margin-top: 26px;
+                    align-items: center;
+                    font-size: 15px;
+                    font-weight: 400;
+
+                    &.signup {
+                        font-weight: 700;
+                        color: var(--primary);
+                        margin-left: 5px;
+                        cursor: pointer;
+                    }
+
+                    @include smallMobile {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

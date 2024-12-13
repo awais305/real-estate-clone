@@ -1,0 +1,79 @@
+@import '/src/mixins.scss';
+
+.verify_code_page {
+    position: relative;
+    width: 100%;
+    margin-top: -76px;
+
+    .container {
+        position: absolute;
+        padding: 40px 100px;
+        width: 580px;
+        background-color: white;
+        border-radius: 10px;
+        z-index: 9;
+        transition: all ease-in-out 0.5s;
+        left: 50%;
+        transform: translateX(- 50%);
+        margin-top: 210px;
+
+        @include tabAndBelow {
+            margin-top: var(--appbarHeight);
+            padding: 25px 40px;
+            width: 380px;
+        }
+
+
+        @include smallMobile {
+            width: 300px;
+        }
+    }
+
+    .verify_code_heading {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+        @include smallMobile {
+            font-size: 22px;
+        }
+    }
+
+    .otp_fields {
+        padding: 0 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @include tabAndBelow {
+            padding: 0;
+        }
+    }
+
+    .verify_code_regular_text {
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 5px;
+
+        &.highlight {
+            color: var(--primary);
+            margin-bottom: 35px;
+        }
+
+        &.resend {
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 35px;
+            cursor: pointer;
+        }
+
+        @include smallMobile {
+            font-size: 12px;
+        }
+    }
+}

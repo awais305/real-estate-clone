@@ -1,0 +1,49 @@
+@mixin smallMobile {
+    @media only screen and (max-width: 419px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media only screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin tabAndBelow {
+    @media only screen and (max-width: 820px) {
+        @content;
+    }
+}
+
+@mixin aboveTab {
+    @media only screen and (min-width: 821px) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media only screen and (max-width: 1280px) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media only screen and (max-width: 1536px) {
+        @content;
+    }
+}
+
+@mixin ellipsis($line: 2) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

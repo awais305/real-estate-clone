@@ -1,0 +1,76 @@
+@import "/src/mixins.scss";
+
+.bg_image {
+    overflow: hidden;
+
+    .image {
+        width: 100%;
+        object-fit: cover;
+        scale: 1.01;
+
+        &.register {
+            height: 1200px;
+
+            @include tabAndBelow {
+                height: 1500px;
+            }
+        }
+
+        &.login {
+            height: 985px;
+        }
+
+        &.forgot_password {
+            height: 790px;
+
+            @include tabAndBelow {
+                height: 430px;
+            }
+
+
+            @include smallMobile {
+                height: 500px;
+            }
+        }
+    }
+
+
+    .auth_navbar {
+        position: absolute;
+        width: 100%;
+        top: 20px;
+        padding: 0 82px;
+        display: flex;
+        justify-content: space-between;
+
+        @include tabAndBelow {
+            top: 17px;
+            padding: 0 36px;
+        }
+
+        .auth_logo {
+            height: 55px;
+            width: 182px;
+            transition: all ease-in-out 0.5s;
+
+            @include tabAndBelow {
+                height: 35px;
+                width: 115px;
+            }
+        }
+
+        .action_button {
+            font-size: 30px;
+            font-weight: 700;
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: all ease-in-out 0.5s;
+
+            @include tabAndBelow {
+                font-size: 16px;
+            }
+        }
+    }
+}

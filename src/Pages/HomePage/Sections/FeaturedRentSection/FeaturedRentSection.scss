@@ -1,0 +1,30 @@
+@import '/src/mixins.scss';
+
+.featured_rent_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    background-color: var(--gray);
+    padding: 53px;
+
+
+    .width_wrapper {
+        max-width: var(--maxWidth);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .rent_list_container {
+            margin: 40px 0;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../../mixins.scss";
+
+.social_button {
+    height: 54px;
+    width: 54px;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        background-color: rgb(230, 230, 230);
+    }
+
+    img {
+        height: 25px;
+        width: 25px;
+    }
+}

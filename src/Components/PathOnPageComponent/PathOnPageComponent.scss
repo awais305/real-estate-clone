@@ -1,0 +1,18 @@
+.breadcrumb {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 38px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d3d0d0;
+
+    span {
+        color: var(--primary);
+        margin-right: 10px;
+    }
+
+    span:last-child {
+        margin-left: 10px;
+        color: var(--black);
+    }
+}

@@ -1,0 +1,10 @@
+.width_wrapper {
+    max-width: var(--maxWidth);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}

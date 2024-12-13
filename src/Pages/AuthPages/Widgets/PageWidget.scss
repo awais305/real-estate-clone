@@ -1,0 +1,31 @@
+.bg_image {
+    position: relative;
+    width: 100%;
+    margin-top: -76px;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+        scale: 1.01;
+    }
+
+
+    .auth_logo {
+        position: absolute;
+        width: 182px;
+        top: 21px;
+        left: 82px;
+    }
+
+    .action_button {
+        position: absolute;
+        font-size: 30px;
+        font-weight: 700;
+        background-color: transparent;
+        border: none;
+        color: white;
+        top: 21px;
+        right: 82px;
+        cursor: pointer;
+    }
+}

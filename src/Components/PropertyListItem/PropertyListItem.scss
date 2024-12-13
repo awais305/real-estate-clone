@@ -1,0 +1,188 @@
+@import '/src/mixins.scss';
+
+.property_list_item {
+    // height: 362px;
+    width: 252px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 0px #00000026;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+
+    @include smallMobile {
+        width: 232px;
+    }
+
+
+    .image_container {
+        position: relative;
+        width: 233px;
+
+        @include smallMobile {
+            width: 212px;
+        }
+
+        .image {
+            height: 172px;
+            width: 233px;
+            width: 100%;
+            border-radius: 7px;
+            object-fit: cover;
+
+            @include smallMobile {
+                height: 172px;
+                width: 212px;
+            }
+        }
+
+        .favorite_icon {
+            position: absolute;
+            height: 24px;
+            width: 24px;
+            background-color: white;
+            border-radius: 50%;
+            bottom: 10px;
+            left: 10px;
+            -webkit-appearance: none;
+            appearance: none;
+            background-image: url("/fav.png");
+            background-size: 14px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+        .icon_container {
+            position: absolute;
+            display: flex;
+            bottom: 10px;
+            right: 10px;
+            padding: 2.5px 5px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 4px;
+            gap: 2.5px;
+
+            .icon {
+                height: 16px;
+                width: 16px;
+
+            }
+
+            .count {
+                font-size: 12px;
+                font-weight: 400;
+                color: white;
+            }
+        }
+    }
+
+    .title {
+        margin-top: 13px;
+        font-size: 15px;
+        font-weight: 500;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
+    }
+
+    .address_container {
+        display: flex;
+        align-items: start;
+        gap: 5px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+
+        .icon {
+            margin-top: 1px;
+            height: 12px;
+            width: 9px;
+            object-fit: contain;
+        }
+
+        .address {
+            font-size: 12px;
+            font-weight: 300;
+            color: var(--black);
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+        }
+    }
+
+    .price {
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--primary);
+    }
+
+    .overview_row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #8e8e8e42;
+
+        .inside_overview {
+            display: flex;
+            gap: 6px;
+
+            .item_icon {
+                width: 10px;
+                object-fit: contain;
+            }
+
+            .item_name {
+                font-size: 10px;
+                font-weight: 500;
+            }
+        }
+
+    }
+
+    .name_type_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .name_wrapper {
+            gap: 7px;
+            display: flex;
+            align-items: center;
+
+            .dp_icon {
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .name {
+                font-size: 10px;
+                font-weight: 500;
+            }
+        }
+
+        .type_wrapper {
+            gap: 7px;
+            display: flex;
+            align-items: center;
+
+            .type_icon {
+                width: 10px;
+                object-fit: contain;
+            }
+
+            .type {
+                font-size: 10px;
+                font-weight: 500;
+            }
+        }
+    }
+}

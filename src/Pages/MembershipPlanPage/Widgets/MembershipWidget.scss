@@ -1,0 +1,165 @@
+@import '/src/mixins.scss';
+
+.membership_widget {
+    // height: 460px;
+    border-radius: 15px;
+    // max-width: 280px;
+    width: 100%;
+    box-shadow: var(--boxShadow);
+    position: relative;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    background-color: white;
+    padding-bottom: 20px;
+
+    &:hover {
+        box-shadow: -2px 8px 20px 0px #00000036;
+        transform: scale(1.02);
+        z-index: 98;
+
+        .membership_button {
+            background-color: var(--primary) !important;
+        }
+
+        @include tabAndBelow {
+            transform: scale(1);
+            box-shadow: var(--boxShadow);
+        }
+    }
+
+
+    @include mobile {
+        width: 100%;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .membership_header {
+        margin-bottom: 50px;
+
+        .membership_header_img {
+            height: 134px;
+            // width: 280px;
+            width: 100%;
+        }
+
+        .membership_name {
+            position: absolute;
+            top: 32px;
+            width: 100%;
+
+            .heading {
+                font-size: 25px;
+                font-weight: 700;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .price_circle {
+            position: absolute;
+            left: calc(50% - 35px);
+            background-color: white;
+            top: 98px;
+            height: 73px;
+            width: 73px;
+            padding-top: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 50%;
+            justify-content: center;
+            box-shadow: 0px 1px 10px 0px #0000001F;
+
+
+            .price_currency {
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+
+            .price_text {
+                font-size: 22px;
+                font-weight: 600;
+
+                &.diamond {
+                    color: #27DA5F;
+                }
+
+                &.sapphire {
+                    color: #7622FF;
+                }
+
+                &.platinum {
+                    color: #02CCA6;
+                }
+
+                &.single {
+                    color: #246BFD;
+                }
+
+                &.silver {
+                    color: #E6631A;
+                }
+
+                &.gold {
+                    color: #26BFE1;
+                }
+            }
+        }
+
+        .left_circle,
+        .right_circle {
+            position: absolute;
+            top: 108px;
+            width: 44px;
+            height: 47px;
+        }
+
+        .left_circle {
+            left: 28px;
+        }
+
+        .right_circle {
+            right: 28px;
+        }
+
+    }
+
+    .membership_list_item {
+        margin-left: 28px;
+        margin-bottom: 18px;
+        color: #2E2E2E;
+        display: flex;
+        align-items: center;
+
+        .check {
+            height: 17px;
+            width: 17px;
+        }
+
+        .point {
+            margin-left: 8px;
+            font-size: 14px;
+            font-weight: 300;
+            opacity: 0.4;
+
+            &.included_perk {
+                opacity: 1;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .membership_button_wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .membership_button {
+            width: 100%;
+        }
+    }
+}

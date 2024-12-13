@@ -1,0 +1,42 @@
+@import '/src/mixins.scss';
+
+.dropdown_component {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black);
+
+    @include tabAndBelow {
+        width: 100% !important;
+    }
+
+    select {
+        padding: 0 13px;
+        border: 1px solid var(--borderColor);
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        -webkit-appearance: none;
+        appearance: none;
+        background-image: url("/down_arrow.png");
+        background-size: 12px;
+        background-repeat: no-repeat;
+        background-position: calc(100% - 15px) center;
+
+        @include tabAndBelow {
+            width: 100% !important;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        option {
+            height: 49px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

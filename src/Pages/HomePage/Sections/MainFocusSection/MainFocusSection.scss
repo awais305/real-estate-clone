@@ -1,0 +1,80 @@
+@import '/src/mixins.scss';
+
+.main_focus_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+
+    .heading {
+        font-size: 42px;
+        font-weight: 700;
+
+
+        @include mobile {
+            font-size: 27px;
+        }
+    }
+
+    .selectors_wrapper {
+        margin-top: 40px;
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        @include tabAndBelow {
+            flex-direction: column;
+        }
+
+        .focus_selector {
+            box-shadow: 1px 1px 10px 0px #00000026;
+            text-align: center;
+            border-bottom: none;
+            padding: 50px 40px;
+            max-width: 380px;
+            border-bottom: 3px solid transparent;
+            transition: all ease-in-out 0.3s;
+
+            .selector_image {
+                height: 135px;
+                object-fit: contain;
+                margin-bottom: 35px;
+            }
+
+            .title {
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 23px;
+            }
+
+            .subtitle {
+                font-size: 13px;
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+
+            .link {
+                color: var(--black);
+                font-size: 12px;
+                font-weight: 500;
+                cursor: pointer;
+
+                @include tabAndBelow {
+                    color: var(--primary);
+                }
+            }
+
+            &:hover {
+                transform: scale(1.01);
+                border-bottom: 3px solid var(--primary);
+
+                .link {
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+}

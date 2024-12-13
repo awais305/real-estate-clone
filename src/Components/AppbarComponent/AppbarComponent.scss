@@ -1,0 +1,285 @@
+@import "../../mixins.scss";
+
+.appbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: var(--appbarHeight);
+    margin: auto;
+    padding: 0 80px;
+    background-color: var(--background);
+    box-shadow: var(--boxShadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease 0.5s;
+    z-index: 99;
+
+    @include lg {
+        padding: 0 25px;
+    }
+
+    .appbar_logo {
+        width: 140px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+
+        @include mobile {
+            width: 120px;
+        }
+    }
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .info_icon {
+            position: relative;
+            object-fit: cover;
+            height: 20px;
+            margin-right: 18px;
+            cursor: pointer;
+
+            &.marginLeft {
+                margin-left: 5px;
+            }
+
+            .text_container {
+                position: absolute;
+                height: 16px;
+                width: 16px;
+                top: -8px;
+                right: -8px;
+                border-radius: 50%;
+                background-color: red;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .text {
+                    font-size: 8px;
+                    color: white;
+                }
+            }
+        }
+
+        .image {
+            margin-left: 20px;
+
+            @include tabAndBelow {
+                display: none;
+            }
+        }
+
+        .user_profile_wrapper {
+            border-bottom: 1px solid #cccccc;
+            display: none;
+            margin: 0 20px;
+
+            @include tabAndBelow {
+                display: block;
+            }
+
+            .user_profile {
+                padding: 10px 0;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                cursor: pointer;
+
+                .profile_image {
+                    height: 45px;
+                    width: 45px;
+                    border-radius: 50%;
+                }
+
+                @include tabAndBelow {
+                    .profile_name {
+                        margin-left: 15px;
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .menu_icon {
+            display: none;
+            width: 28px;
+            height: 20px;
+            transition: all ease 0.5s;
+
+            @include mobile {
+                height: 17px;
+                width: 24px;
+            }
+        }
+
+        .appbar_button {
+            margin-left: 15px;
+
+            @include tabAndBelow {
+                display: none !important;
+            }
+        }
+
+        .appbar_register_login_button {
+            margin-right: 15px;
+            display: none !important;
+
+            @include tabAndBelow {
+                display: block !important;
+                margin: 20px 20px 0 20px;
+
+            }
+
+            .divider {
+                margin-top: 20px;
+                border-top: 0.3px solid silver;
+            }
+        }
+
+        .nav_elements ul {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            list-style-type: none;
+        }
+
+        .nav_elements ul a {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--black);
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 20px;
+
+            @include tabAndBelow {
+                font-weight: 400;
+
+            }
+
+            &:not(.active):hover {
+                padding: 10px 20px;
+                // background-color: rgb(247, 247, 247);
+                background-color: var(--hoverColor);
+                border-radius: var(--borderRadius);
+            }
+        }
+
+
+        .nav_elements ul a.active {
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 15px;
+            position: relative;
+        }
+
+
+        .property_button {
+            border-top: 0.3px solid silver;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            margin-bottom: -8px;
+            padding: 10px 0 0 0;
+
+            display: none;
+
+            @include tabAndBelow {
+                display: flex;
+            }
+        }
+
+        .contact_us {
+            padding-top: 20px;
+            border-top: 0.3px solid silver;
+            font-size: 15px;
+            font-weight: 700;
+            margin: 20px;
+            display: none;
+
+            @include tabAndBelow {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .tile {
+                margin-top: 20px;
+                display: flex;
+
+                .icon {
+                    width: 32px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 12px;
+
+
+                    .title {
+                        font-size: 10px;
+                        font-weight: 400;
+                        color: #858282;
+                    }
+
+                    .subtitle {
+                        font-size: 10px;
+                        font-weight: 500;
+                        margin-top: 7px;
+                        line-height: 2;
+
+                        &.number {
+                            font-size: 15px;
+                            font-weight: 700;
+                            color: var(--primary);
+                        }
+                    }
+                }
+            }
+        }
+
+        @include tabAndBelow {
+            .menu_icon {
+                display: block;
+                cursor: pointer;
+                margin-left: 18px;
+            }
+
+            // drawer
+            .nav_elements {
+                border-top: 0.3px solid rgb(238, 238, 238);
+                position: absolute;
+                right: 0;
+                top: var(--appbarHeight);
+                background-color: #fff;
+                width: 0px;
+                height: calc(100vh - 80px);
+                transition: all 0.3s ease-in;
+                overflow: hidden;
+            }
+
+
+            .nav_elements.active {
+                width: 100%;
+            }
+
+            .nav_elements ul {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+            }
+
+            .nav_elements ul li {
+                margin-right: unset;
+                margin-top: 22px;
+            }
+        }
+    }
+}

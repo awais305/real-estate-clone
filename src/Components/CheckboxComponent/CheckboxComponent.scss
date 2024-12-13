@@ -1,0 +1,53 @@
+.checkbox_component {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .checkbox {
+        position: relative;
+        -webkit-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        margin-right: 25px;
+        height: 20px;
+        width: 20px;
+        border: 1px solid #6A6A6A;
+        border-radius: 5px;
+        transition: all linear 0.2s;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 6px;
+            left: 5px;
+            width: 10px;
+            height: 7px;
+            border-top: none;
+            border-right: none;
+            opacity: 0;
+            // border: 2px solid #fff;
+            // transform: rotate(-45deg);
+
+
+            // for custom tickicon
+            background-image: url("/tick.png");
+            background-size: 10px;
+            background-repeat: no-repeat;
+        }
+
+        &:checked {
+            background-color: var(--primary);
+            border: none;
+
+            &:after {
+                opacity: 1;
+            }
+        }
+    }
+
+    .text {
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

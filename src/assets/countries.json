@@ -1,0 +1,1679 @@
+{
+    "status": true,
+    "message": "Countries listed successfully !",
+    "data": [
+        {
+            "code": "AE",
+            "name": "UNITED ARAB EMIRATES",
+            "phonecode": 971,
+            "arabic_name": "UNITED ARAB EMIRATES",
+            "flag": "/flags/ae.png"
+        },
+        {
+            "code": "SA",
+            "name": "SAUDI ARABIA",
+            "phonecode": 966,
+            "arabic_name": "SAUDI ARABIA",
+            "flag": "/flags/sa.png"
+        },
+        {
+            "code": "KW",
+            "name": "KUWAIT",
+            "phonecode": 965,
+            "arabic_name": "KUWAIT",
+            "flag": "/flags/kw.png"
+        },
+        {
+            "code": "QA",
+            "name": "QATAR",
+            "phonecode": 974,
+            "arabic_name": "QATAR",
+            "flag": "/flags/qa.png"
+        },
+        {
+            "code": "OM",
+            "name": "OMAN",
+            "phonecode": 968,
+            "arabic_name": "OMAN",
+            "flag": "/flags/om.png"
+        },
+        {
+            "code": "BH",
+            "name": "BAHRAIN",
+            "phonecode": 973,
+            "arabic_name": "BAHRAIN",
+            "flag": "/flags/bh.png"
+        },
+        {
+            "code": "BD",
+            "name": "BANGLADESH",
+            "phonecode": 880,
+            "arabic_name": "BANGLADESH",
+            "flag": "/flags/bd.png"
+        },
+        {
+            "code": "BB",
+            "name": "BARBADOS",
+            "phonecode": 1246,
+            "arabic_name": "BARBADOS",
+            "flag": "/flags/bb.png"
+        },
+        {
+            "code": "BY",
+            "name": "BELARUS",
+            "phonecode": 375,
+            "arabic_name": "BELARUS",
+            "flag": "/flags/by.png"
+        },
+        {
+            "code": "BE",
+            "name": "BELGIUM",
+            "phonecode": 32,
+            "arabic_name": "BELGIUM",
+            "flag": "/flags/be.png"
+        },
+        {
+            "code": "BZ",
+            "name": "BELIZE",
+            "phonecode": 501,
+            "arabic_name": "BELIZE",
+            "flag": "/flags/bz.png"
+        },
+        {
+            "code": "BJ",
+            "name": "BENIN",
+            "phonecode": 229,
+            "arabic_name": "BENIN",
+            "flag": "/flags/bj.png"
+        },
+        {
+            "code": "BM",
+            "name": "BERMUDA",
+            "phonecode": 1441,
+            "arabic_name": "BERMUDA",
+            "flag": "/flags/bm.png"
+        },
+        {
+            "code": "BT",
+            "name": "BHUTAN",
+            "phonecode": 975,
+            "arabic_name": "BHUTAN",
+            "flag": "/flags/bt.png"
+        },
+        {
+            "code": "BO",
+            "name": "BOLIVIA",
+            "phonecode": 591,
+            "arabic_name": "BOLIVIA",
+            "flag": "/flags/bo.png"
+        },
+        {
+            "code": "BA",
+            "name": "BOSNIA AND HERZEGOVINA",
+            "phonecode": 387,
+            "arabic_name": "BOSNIA AND HERZEGOVINA",
+            "flag": "/flags/ba.png"
+        },
+        {
+            "code": "BW",
+            "name": "BOTSWANA",
+            "phonecode": 267,
+            "arabic_name": "BOTSWANA",
+            "flag": "/flags/bw.png"
+        },
+        {
+            "code": "BV",
+            "name": "BOUVET ISLAND",
+            "phonecode": 0,
+            "arabic_name": "BOUVET ISLAND",
+            "flag": "/flags/bv.png"
+        },
+        {
+            "code": "BR",
+            "name": "BRAZIL",
+            "phonecode": 55,
+            "arabic_name": "BRAZIL",
+            "flag": "/flags/br.png"
+        },
+        {
+            "code": "IO",
+            "name": "BRITISH INDIAN OCEAN TERRITORY",
+            "phonecode": 246,
+            "arabic_name": "BRITISH INDIAN OCEAN TERRITORY",
+            "flag": "/flags/io.png"
+        },
+        {
+            "code": "BN",
+            "name": "BRUNEI DARUSSALAM",
+            "phonecode": 673,
+            "arabic_name": "BRUNEI DARUSSALAM",
+            "flag": "/flags/bn.png"
+        },
+        {
+            "code": "BG",
+            "name": "BULGARIA",
+            "phonecode": 359,
+            "arabic_name": "BULGARIA",
+            "flag": "/flags/bg.png"
+        },
+        {
+            "code": "BF",
+            "name": "BURKINA FASO",
+            "phonecode": 226,
+            "arabic_name": "BURKINA FASO",
+            "flag": "/flags/bf.png"
+        },
+        {
+            "code": "BI",
+            "name": "BURUNDI",
+            "phonecode": 257,
+            "arabic_name": "BURUNDI",
+            "flag": "/flags/bi.png"
+        },
+        {
+            "code": "KH",
+            "name": "CAMBODIA",
+            "phonecode": 855,
+            "arabic_name": "CAMBODIA",
+            "flag": "/flags/kh.png"
+        },
+        {
+            "code": "CM",
+            "name": "CAMEROON",
+            "phonecode": 237,
+            "arabic_name": "CAMEROON",
+            "flag": "/flags/cm.png"
+        },
+        {
+            "code": "CA",
+            "name": "CANADA",
+            "phonecode": 1,
+            "arabic_name": "CANADA",
+            "flag": "/flags/ca.png"
+        },
+        {
+            "code": "CV",
+            "name": "CAPE VERDE",
+            "phonecode": 238,
+            "arabic_name": "CAPE VERDE",
+            "flag": "/flags/cv.png"
+        },
+        {
+            "code": "KY",
+            "name": "CAYMAN ISLANDS",
+            "phonecode": 1345,
+            "arabic_name": "CAYMAN ISLANDS",
+            "flag": "/flags/ky.png"
+        },
+        {
+            "code": "CF",
+            "name": "CENTRAL AFRICAN REPUBLIC",
+            "phonecode": 236,
+            "arabic_name": "CENTRAL AFRICAN REPUBLIC",
+            "flag": "/flags/cf.png"
+        },
+        {
+            "code": "TD",
+            "name": "CHAD",
+            "phonecode": 235,
+            "arabic_name": "CHAD",
+            "flag": "/flags/td.png"
+        },
+        {
+            "code": "CL",
+            "name": "CHILE",
+            "phonecode": 56,
+            "arabic_name": "CHILE",
+            "flag": "/flags/cl.png"
+        },
+        {
+            "code": "CN",
+            "name": "CHINA",
+            "phonecode": 86,
+            "arabic_name": "CHINA",
+            "flag": "/flags/cn.png"
+        },
+        {
+            "code": "CX",
+            "name": "CHRISTMAS ISLAND",
+            "phonecode": 61,
+            "arabic_name": "CHRISTMAS ISLAND",
+            "flag": "/flags/cx.png"
+        },
+        {
+            "code": "CC",
+            "name": "COCOS (KEELING) ISLANDS",
+            "phonecode": 672,
+            "arabic_name": "COCOS (KEELING) ISLANDS",
+            "flag": "/flags/cc.png"
+        },
+        {
+            "code": "CO",
+            "name": "COLOMBIA",
+            "phonecode": 57,
+            "arabic_name": "COLOMBIA",
+            "flag": "/flags/co.png"
+        },
+        {
+            "code": "KM",
+            "name": "COMOROS",
+            "phonecode": 269,
+            "arabic_name": "COMOROS",
+            "flag": "/flags/km.png"
+        },
+        {
+            "code": "CG",
+            "name": "CONGO",
+            "phonecode": 242,
+            "arabic_name": "CONGO",
+            "flag": "/flags/cg.png"
+        },
+        {
+            "code": "CD",
+            "name": "CONGO, THE DEMOCRATIC REPUBLIC OF THE",
+            "phonecode": 242,
+            "arabic_name": "CONGO, THE DEMOCRATIC REPUBLIC OF THE",
+            "flag": "/flags/cd.png"
+        },
+        {
+            "code": "CK",
+            "name": "COOK ISLANDS",
+            "phonecode": 682,
+            "arabic_name": "COOK ISLANDS",
+            "flag": "/flags/ck.png"
+        },
+        {
+            "code": "CR",
+            "name": "COSTA RICA",
+            "phonecode": 506,
+            "arabic_name": "COSTA RICA",
+            "flag": "/flags/cr.png"
+        },
+        {
+            "code": "CI",
+            "name": "COTE D'IVOIRE",
+            "phonecode": 225,
+            "arabic_name": "COTE D'IVOIRE",
+            "flag": "/flags/ci.png"
+        },
+        {
+            "code": "HR",
+            "name": "CROATIA",
+            "phonecode": 385,
+            "arabic_name": "CROATIA",
+            "flag": "/flags/hr.png"
+        },
+        {
+            "code": "CU",
+            "name": "CUBA",
+            "phonecode": 53,
+            "arabic_name": "CUBA",
+            "flag": "/flags/cu.png"
+        },
+        {
+            "code": "CY",
+            "name": "CYPRUS",
+            "phonecode": 357,
+            "arabic_name": "CYPRUS",
+            "flag": "/flags/cy.png"
+        },
+        {
+            "code": "CZ",
+            "name": "CZECH REPUBLIC",
+            "phonecode": 420,
+            "arabic_name": "CZECH REPUBLIC",
+            "flag": "/flags/cz.png"
+        },
+        {
+            "code": "DK",
+            "name": "DENMARK",
+            "phonecode": 45,
+            "arabic_name": "DENMARK",
+            "flag": "/flags/dk.png"
+        },
+        {
+            "code": "DJ",
+            "name": "DJIBOUTI",
+            "phonecode": 253,
+            "arabic_name": "DJIBOUTI",
+            "flag": "/flags/dj.png"
+        },
+        {
+            "code": "DM",
+            "name": "DOMINICA",
+            "phonecode": 1767,
+            "arabic_name": "DOMINICA",
+            "flag": "/flags/dm.png"
+        },
+        {
+            "code": "DO",
+            "name": "DOMINICAN REPUBLIC",
+            "phonecode": 1809,
+            "arabic_name": "DOMINICAN REPUBLIC",
+            "flag": "/flags/do.png"
+        },
+        {
+            "code": "EC",
+            "name": "ECUADOR",
+            "phonecode": 593,
+            "arabic_name": "ECUADOR",
+            "flag": "/flags/ec.png"
+        },
+        {
+            "code": "EG",
+            "name": "EGYPT",
+            "phonecode": 20,
+            "arabic_name": "EGYPT",
+            "flag": "/flags/eg.png"
+        },
+        {
+            "code": "SV",
+            "name": "EL SALVADOR",
+            "phonecode": 503,
+            "arabic_name": "EL SALVADOR",
+            "flag": "/flags/sv.png"
+        },
+        {
+            "code": "GQ",
+            "name": "EQUATORIAL GUINEA",
+            "phonecode": 240,
+            "arabic_name": "EQUATORIAL GUINEA",
+            "flag": "/flags/gq.png"
+        },
+        {
+            "code": "ER",
+            "name": "ERITREA",
+            "phonecode": 291,
+            "arabic_name": "ERITREA",
+            "flag": "/flags/er.png"
+        },
+        {
+            "code": "EE",
+            "name": "ESTONIA",
+            "phonecode": 372,
+            "arabic_name": "ESTONIA",
+            "flag": "/flags/ee.png"
+        },
+        {
+            "code": "ET",
+            "name": "ETHIOPIA",
+            "phonecode": 251,
+            "arabic_name": "ETHIOPIA",
+            "flag": "/flags/et.png"
+        },
+        {
+            "code": "FK",
+            "name": "FALKLAND ISLANDS (MALVINAS)",
+            "phonecode": 500,
+            "arabic_name": "FALKLAND ISLANDS (MALVINAS)",
+            "flag": "/flags/fk.png"
+        },
+        {
+            "code": "FO",
+            "name": "FAROE ISLANDS",
+            "phonecode": 298,
+            "arabic_name": "FAROE ISLANDS",
+            "flag": "/flags/fo.png"
+        },
+        {
+            "code": "FJ",
+            "name": "FIJI",
+            "phonecode": 679,
+            "arabic_name": "FIJI",
+            "flag": "/flags/fj.png"
+        },
+        {
+            "code": "FI",
+            "name": "FINLAND",
+            "phonecode": 358,
+            "arabic_name": "FINLAND",
+            "flag": "/flags/fi.png"
+        },
+        {
+            "code": "FR",
+            "name": "FRANCE",
+            "phonecode": 33,
+            "arabic_name": "FRANCE",
+            "flag": "/flags/fr.png"
+        },
+        {
+            "code": "GF",
+            "name": "FRENCH GUIANA",
+            "phonecode": 594,
+            "arabic_name": "FRENCH GUIANA",
+            "flag": "/flags/gf.png"
+        },
+        {
+            "code": "PF",
+            "name": "FRENCH POLYNESIA",
+            "phonecode": 689,
+            "arabic_name": "FRENCH POLYNESIA",
+            "flag": "/flags/pf.png"
+        },
+        {
+            "code": "TF",
+            "name": "FRENCH SOUTHERN TERRITORIES",
+            "phonecode": 0,
+            "arabic_name": "FRENCH SOUTHERN TERRITORIES",
+            "flag": "/flags/tf.png"
+        },
+        {
+            "code": "GA",
+            "name": "GABON",
+            "phonecode": 241,
+            "arabic_name": "GABON",
+            "flag": "/flags/ga.png"
+        },
+        {
+            "code": "GM",
+            "name": "GAMBIA",
+            "phonecode": 220,
+            "arabic_name": "GAMBIA",
+            "flag": "/flags/gm.png"
+        },
+        {
+            "code": "GE",
+            "name": "GEORGIA",
+            "phonecode": 995,
+            "arabic_name": "GEORGIA",
+            "flag": "/flags/ge.png"
+        },
+        {
+            "code": "DE",
+            "name": "GERMANY",
+            "phonecode": 49,
+            "arabic_name": "GERMANY",
+            "flag": "/flags/de.png"
+        },
+        {
+            "code": "GH",
+            "name": "GHANA",
+            "phonecode": 233,
+            "arabic_name": "GHANA",
+            "flag": "/flags/gh.png"
+        },
+        {
+            "code": "GI",
+            "name": "GIBRALTAR",
+            "phonecode": 350,
+            "arabic_name": "GIBRALTAR",
+            "flag": "/flags/gi.png"
+        },
+        {
+            "code": "GR",
+            "name": "GREECE",
+            "phonecode": 30,
+            "arabic_name": "GREECE",
+            "flag": "/flags/gr.png"
+        },
+        {
+            "code": "GL",
+            "name": "GREENLAND",
+            "phonecode": 299,
+            "arabic_name": "GREENLAND",
+            "flag": "/flags/gl.png"
+        },
+        {
+            "code": "GD",
+            "name": "GRENADA",
+            "phonecode": 1473,
+            "arabic_name": "GRENADA",
+            "flag": "/flags/gd.png"
+        },
+        {
+            "code": "GP",
+            "name": "GUADELOUPE",
+            "phonecode": 590,
+            "arabic_name": "GUADELOUPE",
+            "flag": "/flags/gp.png"
+        },
+        {
+            "code": "GU",
+            "name": "GUAM",
+            "phonecode": 1671,
+            "arabic_name": "GUAM",
+            "flag": "/flags/gu.png"
+        },
+        {
+            "code": "GT",
+            "name": "GUATEMALA",
+            "phonecode": 502,
+            "arabic_name": "GUATEMALA",
+            "flag": "/flags/gt.png"
+        },
+        {
+            "code": "GN",
+            "name": "GUINEA",
+            "phonecode": 224,
+            "arabic_name": "GUINEA",
+            "flag": "/flags/gn.png"
+        },
+        {
+            "code": "GW",
+            "name": "GUINEA-BISSAU",
+            "phonecode": 245,
+            "arabic_name": "GUINEA-BISSAU",
+            "flag": "/flags/gw.png"
+        },
+        {
+            "code": "GY",
+            "name": "GUYANA",
+            "phonecode": 592,
+            "arabic_name": "GUYANA",
+            "flag": "/flags/gy.png"
+        },
+        {
+            "code": "HT",
+            "name": "HAITI",
+            "phonecode": 509,
+            "arabic_name": "HAITI",
+            "flag": "/flags/ht.png"
+        },
+        {
+            "code": "HM",
+            "name": "HEARD ISLAND AND MCDONALD ISLANDS",
+            "phonecode": 0,
+            "arabic_name": "HEARD ISLAND AND MCDONALD ISLANDS",
+            "flag": "/flags/hm.png"
+        },
+        {
+            "code": "VA",
+            "name": "HOLY SEE (VATICAN CITY STATE)",
+            "phonecode": 39,
+            "arabic_name": "HOLY SEE (VATICAN CITY STATE)",
+            "flag": "/flags/va.png"
+        },
+        {
+            "code": "HN",
+            "name": "HONDURAS",
+            "phonecode": 504,
+            "arabic_name": "HONDURAS",
+            "flag": "/flags/hn.png"
+        },
+        {
+            "code": "HK",
+            "name": "HONG KONG",
+            "phonecode": 852,
+            "arabic_name": "HONG KONG",
+            "flag": "/flags/hk.png"
+        },
+        {
+            "code": "HU",
+            "name": "HUNGARY",
+            "phonecode": 36,
+            "arabic_name": "HUNGARY",
+            "flag": "/flags/hu.png"
+        },
+        {
+            "code": "IS",
+            "name": "ICELAND",
+            "phonecode": 354,
+            "arabic_name": "ICELAND",
+            "flag": "/flags/is.png"
+        },
+        {
+            "code": "IN",
+            "name": "INDIA",
+            "phonecode": 91,
+            "arabic_name": "INDIA",
+            "flag": "/flags/in.png"
+        },
+        {
+            "code": "ID",
+            "name": "INDONESIA",
+            "phonecode": 62,
+            "arabic_name": "INDONESIA",
+            "flag": "/flags/id.png"
+        },
+        {
+            "code": "IR",
+            "name": "IRAN, ISLAMIC REPUBLIC OF",
+            "phonecode": 98,
+            "arabic_name": "IRAN, ISLAMIC REPUBLIC OF",
+            "flag": "/flags/ir.png"
+        },
+        {
+            "code": "IQ",
+            "name": "IRAQ",
+            "phonecode": 964,
+            "arabic_name": "IRAQ",
+            "flag": "/flags/iq.png"
+        },
+        {
+            "code": "IE",
+            "name": "IRELAND",
+            "phonecode": 353,
+            "arabic_name": "IRELAND",
+            "flag": "/flags/ie.png"
+        },
+        {
+            "code": "IL",
+            "name": "ISRAEL",
+            "phonecode": 972,
+            "arabic_name": "ISRAEL",
+            "flag": "/flags/il.png"
+        },
+        {
+            "code": "IT",
+            "name": "ITALY",
+            "phonecode": 39,
+            "arabic_name": "ITALY",
+            "flag": "/flags/it.png"
+        },
+        {
+            "code": "JM",
+            "name": "JAMAICA",
+            "phonecode": 1876,
+            "arabic_name": "JAMAICA",
+            "flag": "/flags/jm.png"
+        },
+        {
+            "code": "JP",
+            "name": "JAPAN",
+            "phonecode": 81,
+            "arabic_name": "JAPAN",
+            "flag": "/flags/jp.png"
+        },
+        {
+            "code": "JO",
+            "name": "JORDAN",
+            "phonecode": 962,
+            "arabic_name": "JORDAN",
+            "flag": "/flags/jo.png"
+        },
+        {
+            "code": "KZ",
+            "name": "KAZAKHSTAN",
+            "phonecode": 7,
+            "arabic_name": "KAZAKHSTAN",
+            "flag": "/flags/kz.png"
+        },
+        {
+            "code": "KE",
+            "name": "KENYA",
+            "phonecode": 254,
+            "arabic_name": "KENYA",
+            "flag": "/flags/ke.png"
+        },
+        {
+            "code": "KI",
+            "name": "KIRIBATI",
+            "phonecode": 686,
+            "arabic_name": "KIRIBATI",
+            "flag": "/flags/ki.png"
+        },
+        {
+            "code": "KP",
+            "name": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
+            "phonecode": 850,
+            "arabic_name": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
+            "flag": "/flags/kp.png"
+        },
+        {
+            "code": "KR",
+            "name": "KOREA, REPUBLIC OF",
+            "phonecode": 82,
+            "arabic_name": "KOREA, REPUBLIC OF",
+            "flag": "/flags/kr.png"
+        },
+        {
+            "code": "PK",
+            "name": "PAKISTAN",
+            "phonecode": 92,
+            "arabic_name": "PAKISTAN",
+            "flag": "/flags/pk.png"
+        },
+        {
+            "code": "PW",
+            "name": "PALAU",
+            "phonecode": 680,
+            "arabic_name": "PALAU",
+            "flag": "/flags/pw.png"
+        },
+        {
+            "code": "PS",
+            "name": "PALESTINIAN TERRITORY, OCCUPIED",
+            "phonecode": 970,
+            "arabic_name": "PALESTINIAN TERRITORY, OCCUPIED",
+            "flag": "/flags/ps.png"
+        },
+        {
+            "code": "PA",
+            "name": "PANAMA",
+            "phonecode": 507,
+            "arabic_name": "PANAMA",
+            "flag": "/flags/pa.png"
+        },
+        {
+            "code": "PG",
+            "name": "PAPUA NEW GUINEA",
+            "phonecode": 675,
+            "arabic_name": "PAPUA NEW GUINEA",
+            "flag": "/flags/pg.png"
+        },
+        {
+            "code": "PY",
+            "name": "PARAGUAY",
+            "phonecode": 595,
+            "arabic_name": "PARAGUAY",
+            "flag": "/flags/py.png"
+        },
+        {
+            "code": "PE",
+            "name": "PERU",
+            "phonecode": 51,
+            "arabic_name": "PERU",
+            "flag": "/flags/pe.png"
+        },
+        {
+            "code": "PH",
+            "name": "PHILIPPINES",
+            "phonecode": 63,
+            "arabic_name": "PHILIPPINES",
+            "flag": "/flags/ph.png"
+        },
+        {
+            "code": "PN",
+            "name": "PITCAIRN",
+            "phonecode": 0,
+            "arabic_name": "PITCAIRN",
+            "flag": "/flags/pn.png"
+        },
+        {
+            "code": "PL",
+            "name": "POLAND",
+            "phonecode": 48,
+            "arabic_name": "POLAND",
+            "flag": "/flags/pl.png"
+        },
+        {
+            "code": "PT",
+            "name": "PORTUGAL",
+            "phonecode": 351,
+            "arabic_name": "PORTUGAL",
+            "flag": "/flags/pt.png"
+        },
+        {
+            "code": "PR",
+            "name": "PUERTO RICO",
+            "phonecode": 1787,
+            "arabic_name": "PUERTO RICO",
+            "flag": "/flags/pr.png"
+        },
+        {
+            "code": "RE",
+            "name": "REUNION",
+            "phonecode": 262,
+            "arabic_name": "REUNION",
+            "flag": "/flags/re.png"
+        },
+        {
+            "code": "RO",
+            "name": "ROMANIA",
+            "phonecode": 40,
+            "arabic_name": "ROMANIA",
+            "flag": "/flags/ro.png"
+        },
+        {
+            "code": "RU",
+            "name": "RUSSIAN FEDERATION",
+            "phonecode": 70,
+            "arabic_name": "RUSSIAN FEDERATION",
+            "flag": "/flags/ru.png"
+        },
+        {
+            "code": "RW",
+            "name": "RWANDA",
+            "phonecode": 250,
+            "arabic_name": "RWANDA",
+            "flag": "/flags/rw.png"
+        },
+        {
+            "code": "SH",
+            "name": "SAINT HELENA",
+            "phonecode": 290,
+            "arabic_name": "SAINT HELENA",
+            "flag": "/flags/sh.png"
+        },
+        {
+            "code": "KN",
+            "name": "SAINT KITTS AND NEVIS",
+            "phonecode": 1869,
+            "arabic_name": "SAINT KITTS AND NEVIS",
+            "flag": "/flags/kn.png"
+        },
+        {
+            "code": "LC",
+            "name": "SAINT LUCIA",
+            "phonecode": 1758,
+            "arabic_name": "SAINT LUCIA",
+            "flag": "/flags/lc.png"
+        },
+        {
+            "code": "PM",
+            "name": "SAINT PIERRE AND MIQUELON",
+            "phonecode": 508,
+            "arabic_name": "SAINT PIERRE AND MIQUELON",
+            "flag": "/flags/pm.png"
+        },
+        {
+            "code": "VC",
+            "name": "SAINT VINCENT AND THE GRENADINES",
+            "phonecode": 1784,
+            "arabic_name": "SAINT VINCENT AND THE GRENADINES",
+            "flag": "/flags/vc.png"
+        },
+        {
+            "code": "WS",
+            "name": "SAMOA",
+            "phonecode": 684,
+            "arabic_name": "SAMOA",
+            "flag": "/flags/ws.png"
+        },
+        {
+            "code": "SM",
+            "name": "SAN MARINO",
+            "phonecode": 378,
+            "arabic_name": "SAN MARINO",
+            "flag": "/flags/sm.png"
+        },
+        {
+            "code": "ST",
+            "name": "SAO TOME AND PRINCIPE",
+            "phonecode": 239,
+            "arabic_name": "SAO TOME AND PRINCIPE",
+            "flag": "/flags/st.png"
+        },
+        {
+            "code": "AF",
+            "name": "AFGHANISTAN",
+            "phonecode": 93,
+            "arabic_name": "AFGHANISTAN",
+            "flag": "/flags/af.png"
+        },
+        {
+            "code": "AL",
+            "name": "ALBANIA",
+            "phonecode": 355,
+            "arabic_name": "ALBANIA",
+            "flag": "/flags/al.png"
+        },
+        {
+            "code": "DZ",
+            "name": "ALGERIA",
+            "phonecode": 213,
+            "arabic_name": "ALGERIA",
+            "flag": "/flags/dz.png"
+        },
+        {
+            "code": "AS",
+            "name": "AMERICAN SAMOA",
+            "phonecode": 1684,
+            "arabic_name": "AMERICAN SAMOA",
+            "flag": "/flags/as.png"
+        },
+        {
+            "code": "AD",
+            "name": "ANDORRA",
+            "phonecode": 376,
+            "arabic_name": "ANDORRA",
+            "flag": "/flags/ad.png"
+        },
+        {
+            "code": "AO",
+            "name": "ANGOLA",
+            "phonecode": 244,
+            "arabic_name": "ANGOLA",
+            "flag": "/flags/ao.png"
+        },
+        {
+            "code": "AI",
+            "name": "ANGUILLA",
+            "phonecode": 1264,
+            "arabic_name": "ANGUILLA",
+            "flag": "/flags/ai.png"
+        },
+        {
+            "code": "AQ",
+            "name": "ANTARCTICA",
+            "phonecode": 0,
+            "arabic_name": "ANTARCTICA",
+            "flag": "/flags/aq.png"
+        },
+        {
+            "code": "AG",
+            "name": "ANTIGUA AND BARBUDA",
+            "phonecode": 1268,
+            "arabic_name": "ANTIGUA AND BARBUDA",
+            "flag": "/flags/ag.png"
+        },
+        {
+            "code": "AR",
+            "name": "ARGENTINA",
+            "phonecode": 54,
+            "arabic_name": "ARGENTINA",
+            "flag": "/flags/ar.png"
+        },
+        {
+            "code": "AM",
+            "name": "ARMENIA",
+            "phonecode": 374,
+            "arabic_name": "ARMENIA",
+            "flag": "/flags/am.png"
+        },
+        {
+            "code": "AW",
+            "name": "ARUBA",
+            "phonecode": 297,
+            "arabic_name": "ARUBA",
+            "flag": "/flags/aw.png"
+        },
+        {
+            "code": "AU",
+            "name": "AUSTRALIA",
+            "phonecode": 61,
+            "arabic_name": "AUSTRALIA",
+            "flag": "/flags/au.png"
+        },
+        {
+            "code": "AT",
+            "name": "AUSTRIA",
+            "phonecode": 43,
+            "arabic_name": "AUSTRIA",
+            "flag": "/flags/at.png"
+        },
+        {
+            "code": "AZ",
+            "name": "AZERBAIJAN",
+            "phonecode": 994,
+            "arabic_name": "AZERBAIJAN",
+            "flag": "/flags/az.png"
+        },
+        {
+            "code": "BS",
+            "name": "BAHAMAS",
+            "phonecode": 1242,
+            "arabic_name": "BAHAMAS",
+            "flag": "/flags/bs.png"
+        },
+        {
+            "code": "KG",
+            "name": "KYRGYZSTAN",
+            "phonecode": 996,
+            "arabic_name": "KYRGYZSTAN",
+            "flag": "/flags/kg.png"
+        },
+        {
+            "code": "LA",
+            "name": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+            "phonecode": 856,
+            "arabic_name": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+            "flag": "/flags/la.png"
+        },
+        {
+            "code": "LV",
+            "name": "LATVIA",
+            "phonecode": 371,
+            "arabic_name": "LATVIA",
+            "flag": "/flags/lv.png"
+        },
+        {
+            "code": "LB",
+            "name": "LEBANON",
+            "phonecode": 961,
+            "arabic_name": "LEBANON",
+            "flag": "/flags/lb.png"
+        },
+        {
+            "code": "LS",
+            "name": "LESOTHO",
+            "phonecode": 266,
+            "arabic_name": "LESOTHO",
+            "flag": "/flags/ls.png"
+        },
+        {
+            "code": "LR",
+            "name": "LIBERIA",
+            "phonecode": 231,
+            "arabic_name": "LIBERIA",
+            "flag": "/flags/lr.png"
+        },
+        {
+            "code": "LY",
+            "name": "LIBYAN ARAB JAMAHIRIYA",
+            "phonecode": 218,
+            "arabic_name": "LIBYAN ARAB JAMAHIRIYA",
+            "flag": "/flags/ly.png"
+        },
+        {
+            "code": "LI",
+            "name": "LIECHTENSTEIN",
+            "phonecode": 423,
+            "arabic_name": "LIECHTENSTEIN",
+            "flag": "/flags/li.png"
+        },
+        {
+            "code": "LT",
+            "name": "LITHUANIA",
+            "phonecode": 370,
+            "arabic_name": "LITHUANIA",
+            "flag": "/flags/lt.png"
+        },
+        {
+            "code": "LU",
+            "name": "LUXEMBOURG",
+            "phonecode": 352,
+            "arabic_name": "LUXEMBOURG",
+            "flag": "/flags/lu.png"
+        },
+        {
+            "code": "MO",
+            "name": "MACAO",
+            "phonecode": 853,
+            "arabic_name": "MACAO",
+            "flag": "/flags/mo.png"
+        },
+        {
+            "code": "MK",
+            "name": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",
+            "phonecode": 389,
+            "arabic_name": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",
+            "flag": "/flags/mk.png"
+        },
+        {
+            "code": "MG",
+            "name": "MADAGASCAR",
+            "phonecode": 261,
+            "arabic_name": "MADAGASCAR",
+            "flag": "/flags/mg.png"
+        },
+        {
+            "code": "MW",
+            "name": "MALAWI",
+            "phonecode": 265,
+            "arabic_name": "MALAWI",
+            "flag": "/flags/mw.png"
+        },
+        {
+            "code": "MY",
+            "name": "MALAYSIA",
+            "phonecode": 60,
+            "arabic_name": "MALAYSIA",
+            "flag": "/flags/my.png"
+        },
+        {
+            "code": "MV",
+            "name": "MALDIVES",
+            "phonecode": 960,
+            "arabic_name": "MALDIVES",
+            "flag": "/flags/mv.png"
+        },
+        {
+            "code": "ML",
+            "name": "MALI",
+            "phonecode": 223,
+            "arabic_name": "MALI",
+            "flag": "/flags/ml.png"
+        },
+        {
+            "code": "MT",
+            "name": "MALTA",
+            "phonecode": 356,
+            "arabic_name": "MALTA",
+            "flag": "/flags/mt.png"
+        },
+        {
+            "code": "MH",
+            "name": "MARSHALL ISLANDS",
+            "phonecode": 692,
+            "arabic_name": "MARSHALL ISLANDS",
+            "flag": "/flags/mh.png"
+        },
+        {
+            "code": "MQ",
+            "name": "MARTINIQUE",
+            "phonecode": 596,
+            "arabic_name": "MARTINIQUE",
+            "flag": "/flags/mq.png"
+        },
+        {
+            "code": "MR",
+            "name": "MAURITANIA",
+            "phonecode": 222,
+            "arabic_name": "MAURITANIA",
+            "flag": "/flags/mr.png"
+        },
+        {
+            "code": "MU",
+            "name": "MAURITIUS",
+            "phonecode": 230,
+            "arabic_name": "MAURITIUS",
+            "flag": "/flags/mu.png"
+        },
+        {
+            "code": "YT",
+            "name": "MAYOTTE",
+            "phonecode": 269,
+            "arabic_name": "MAYOTTE",
+            "flag": "/flags/yt.png"
+        },
+        {
+            "code": "MX",
+            "name": "MEXICO",
+            "phonecode": 52,
+            "arabic_name": "MEXICO",
+            "flag": "/flags/mx.png"
+        },
+        {
+            "code": "FM",
+            "name": "MICRONESIA, FEDERATED STATES OF",
+            "phonecode": 691,
+            "arabic_name": "MICRONESIA, FEDERATED STATES OF",
+            "flag": "/flags/fm.png"
+        },
+        {
+            "code": "MD",
+            "name": "MOLDOVA, REPUBLIC OF",
+            "phonecode": 373,
+            "arabic_name": "MOLDOVA, REPUBLIC OF",
+            "flag": "/flags/md.png"
+        },
+        {
+            "code": "MC",
+            "name": "MONACO",
+            "phonecode": 377,
+            "arabic_name": "MONACO",
+            "flag": "/flags/mc.png"
+        },
+        {
+            "code": "MN",
+            "name": "MONGOLIA",
+            "phonecode": 976,
+            "arabic_name": "MONGOLIA",
+            "flag": "/flags/mn.png"
+        },
+        {
+            "code": "MS",
+            "name": "MONTSERRAT",
+            "phonecode": 1664,
+            "arabic_name": "MONTSERRAT",
+            "flag": "/flags/ms.png"
+        },
+        {
+            "code": "MA",
+            "name": "MOROCCO",
+            "phonecode": 212,
+            "arabic_name": "MOROCCO",
+            "flag": "/flags/ma.png"
+        },
+        {
+            "code": "MZ",
+            "name": "MOZAMBIQUE",
+            "phonecode": 258,
+            "arabic_name": "MOZAMBIQUE",
+            "flag": "/flags/mz.png"
+        },
+        {
+            "code": "MM",
+            "name": "MYANMAR",
+            "phonecode": 95,
+            "arabic_name": "MYANMAR",
+            "flag": "/flags/mm.png"
+        },
+        {
+            "code": "NA",
+            "name": "NAMIBIA",
+            "phonecode": 264,
+            "arabic_name": "NAMIBIA",
+            "flag": "/flags/na.png"
+        },
+        {
+            "code": "NR",
+            "name": "NAURU",
+            "phonecode": 674,
+            "arabic_name": "NAURU",
+            "flag": "/flags/nr.png"
+        },
+        {
+            "code": "NP",
+            "name": "NEPAL",
+            "phonecode": 977,
+            "arabic_name": "NEPAL",
+            "flag": "/flags/np.png"
+        },
+        {
+            "code": "NL",
+            "name": "NETHERLANDS",
+            "phonecode": 31,
+            "arabic_name": "NETHERLANDS",
+            "flag": "/flags/nl.png"
+        },
+        {
+            "code": "AN",
+            "name": "NETHERLANDS ANTILLES",
+            "phonecode": 599,
+            "arabic_name": "NETHERLANDS ANTILLES",
+            "flag": "/flags/an.png"
+        },
+        {
+            "code": "NC",
+            "name": "NEW CALEDONIA",
+            "phonecode": 687,
+            "arabic_name": "NEW CALEDONIA",
+            "flag": "/flags/nc.png"
+        },
+        {
+            "code": "NZ",
+            "name": "NEW ZEALAND",
+            "phonecode": 64,
+            "arabic_name": "NEW ZEALAND",
+            "flag": "/flags/nz.png"
+        },
+        {
+            "code": "NI",
+            "name": "NICARAGUA",
+            "phonecode": 505,
+            "arabic_name": "NICARAGUA",
+            "flag": "/flags/ni.png"
+        },
+        {
+            "code": "NE",
+            "name": "NIGER",
+            "phonecode": 227,
+            "arabic_name": "NIGER",
+            "flag": "/flags/ne.png"
+        },
+        {
+            "code": "NG",
+            "name": "NIGERIA",
+            "phonecode": 234,
+            "arabic_name": "NIGERIA",
+            "flag": "/flags/ng.png"
+        },
+        {
+            "code": "NU",
+            "name": "NIUE",
+            "phonecode": 683,
+            "arabic_name": "NIUE",
+            "flag": "/flags/nu.png"
+        },
+        {
+            "code": "NF",
+            "name": "NORFOLK ISLAND",
+            "phonecode": 672,
+            "arabic_name": "NORFOLK ISLAND",
+            "flag": "/flags/nf.png"
+        },
+        {
+            "code": "MP",
+            "name": "NORTHERN MARIANA ISLANDS",
+            "phonecode": 1670,
+            "arabic_name": "NORTHERN MARIANA ISLANDS",
+            "flag": "/flags/mp.png"
+        },
+        {
+            "code": "NO",
+            "name": "NORWAY",
+            "phonecode": 47,
+            "arabic_name": "NORWAY",
+            "flag": "/flags/no.png"
+        },
+        {
+            "code": "SN",
+            "name": "SENEGAL",
+            "phonecode": 221,
+            "arabic_name": "SENEGAL",
+            "flag": "/flags/sn.png"
+        },
+        {
+            "code": "CS",
+            "name": "SERBIA AND MONTENEGRO",
+            "phonecode": 381,
+            "arabic_name": "SERBIA AND MONTENEGRO",
+            "flag": "/flags/cs.png"
+        },
+        {
+            "code": "SC",
+            "name": "SEYCHELLES",
+            "phonecode": 248,
+            "arabic_name": "SEYCHELLES",
+            "flag": "/flags/sc.png"
+        },
+        {
+            "code": "SL",
+            "name": "SIERRA LEONE",
+            "phonecode": 232,
+            "arabic_name": "SIERRA LEONE",
+            "flag": "/flags/sl.png"
+        },
+        {
+            "code": "SG",
+            "name": "SINGAPORE",
+            "phonecode": 65,
+            "arabic_name": "SINGAPORE",
+            "flag": "/flags/sg.png"
+        },
+        {
+            "code": "SK",
+            "name": "SLOVAKIA",
+            "phonecode": 421,
+            "arabic_name": "SLOVAKIA",
+            "flag": "/flags/sk.png"
+        },
+        {
+            "code": "SI",
+            "name": "SLOVENIA",
+            "phonecode": 386,
+            "arabic_name": "SLOVENIA",
+            "flag": "/flags/si.png"
+        },
+        {
+            "code": "SB",
+            "name": "SOLOMON ISLANDS",
+            "phonecode": 677,
+            "arabic_name": "SOLOMON ISLANDS",
+            "flag": "/flags/sb.png"
+        },
+        {
+            "code": "SO",
+            "name": "SOMALIA",
+            "phonecode": 252,
+            "arabic_name": "SOMALIA",
+            "flag": "/flags/so.png"
+        },
+        {
+            "code": "ZA",
+            "name": "SOUTH AFRICA",
+            "phonecode": 27,
+            "arabic_name": "SOUTH AFRICA",
+            "flag": "/flags/za.png"
+        },
+        {
+            "code": "GS",
+            "name": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+            "phonecode": 0,
+            "arabic_name": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+            "flag": "/flags/gs.png"
+        },
+        {
+            "code": "ES",
+            "name": "SPAIN",
+            "phonecode": 34,
+            "arabic_name": "SPAIN",
+            "flag": "/flags/es.png"
+        },
+        {
+            "code": "LK",
+            "name": "SRI LANKA",
+            "phonecode": 94,
+            "arabic_name": "SRI LANKA",
+            "flag": "/flags/lk.png"
+        },
+        {
+            "code": "SD",
+            "name": "SUDAN",
+            "phonecode": 249,
+            "arabic_name": "SUDAN",
+            "flag": "/flags/sd.png"
+        },
+        {
+            "code": "SR",
+            "name": "SURINAME",
+            "phonecode": 597,
+            "arabic_name": "SURINAME",
+            "flag": "/flags/sr.png"
+        },
+        {
+            "code": "SJ",
+            "name": "SVALBARD AND JAN MAYEN",
+            "phonecode": 47,
+            "arabic_name": "SVALBARD AND JAN MAYEN",
+            "flag": "/flags/sj.png"
+        },
+        {
+            "code": "SZ",
+            "name": "SWAZILAND",
+            "phonecode": 268,
+            "arabic_name": "SWAZILAND",
+            "flag": "/flags/sz.png"
+        },
+        {
+            "code": "SE",
+            "name": "SWEDEN",
+            "phonecode": 46,
+            "arabic_name": "SWEDEN",
+            "flag": "/flags/se.png"
+        },
+        {
+            "code": "CH",
+            "name": "SWITZERLAND",
+            "phonecode": 41,
+            "arabic_name": "SWITZERLAND",
+            "flag": "/flags/ch.png"
+        },
+        {
+            "code": "SY",
+            "name": "SYRIAN ARAB REPUBLIC",
+            "phonecode": 963,
+            "arabic_name": "SYRIAN ARAB REPUBLIC",
+            "flag": "/flags/sy.png"
+        },
+        {
+            "code": "TW",
+            "name": "TAIWAN, PROVINCE OF CHINA",
+            "phonecode": 886,
+            "arabic_name": "TAIWAN, PROVINCE OF CHINA",
+            "flag": "/flags/tw.png"
+        },
+        {
+            "code": "TJ",
+            "name": "TAJIKISTAN",
+            "phonecode": 992,
+            "arabic_name": "TAJIKISTAN",
+            "flag": "/flags/tj.png"
+        },
+        {
+            "code": "TZ",
+            "name": "TANZANIA, UNITED REPUBLIC OF",
+            "phonecode": 255,
+            "arabic_name": "TANZANIA, UNITED REPUBLIC OF",
+            "flag": "/flags/tz.png"
+        },
+        {
+            "code": "TH",
+            "name": "THAILAND",
+            "phonecode": 66,
+            "arabic_name": "THAILAND",
+            "flag": "/flags/th.png"
+        },
+        {
+            "code": "TL",
+            "name": "TIMOR-LESTE",
+            "phonecode": 670,
+            "arabic_name": "TIMOR-LESTE",
+            "flag": "/flags/tl.png"
+        },
+        {
+            "code": "TG",
+            "name": "TOGO",
+            "phonecode": 228,
+            "arabic_name": "TOGO",
+            "flag": "/flags/tg.png"
+        },
+        {
+            "code": "TK",
+            "name": "TOKELAU",
+            "phonecode": 690,
+            "arabic_name": "TOKELAU",
+            "flag": "/flags/tk.png"
+        },
+        {
+            "code": "TO",
+            "name": "TONGA",
+            "phonecode": 676,
+            "arabic_name": "TONGA",
+            "flag": "/flags/to.png"
+        },
+        {
+            "code": "TT",
+            "name": "TRINIDAD AND TOBAGO",
+            "phonecode": 1868,
+            "arabic_name": "TRINIDAD AND TOBAGO",
+            "flag": "/flags/tt.png"
+        },
+        {
+            "code": "TN",
+            "name": "TUNISIA",
+            "phonecode": 216,
+            "arabic_name": "TUNISIA",
+            "flag": "/flags/tn.png"
+        },
+        {
+            "code": "TR",
+            "name": "TURKEY",
+            "phonecode": 90,
+            "arabic_name": "TURKEY",
+            "flag": "/flags/tr.png"
+        },
+        {
+            "code": "TM",
+            "name": "TURKMENISTAN",
+            "phonecode": 7370,
+            "arabic_name": "TURKMENISTAN",
+            "flag": "/flags/tm.png"
+        },
+        {
+            "code": "TC",
+            "name": "TURKS AND CAICOS ISLANDS",
+            "phonecode": 1649,
+            "arabic_name": "TURKS AND CAICOS ISLANDS",
+            "flag": "/flags/tc.png"
+        },
+        {
+            "code": "TV",
+            "name": "TUVALU",
+            "phonecode": 688,
+            "arabic_name": "TUVALU",
+            "flag": "/flags/tv.png"
+        },
+        {
+            "code": "UG",
+            "name": "UGANDA",
+            "phonecode": 256,
+            "arabic_name": "UGANDA",
+            "flag": "/flags/ug.png"
+        },
+        {
+            "code": "UA",
+            "name": "UKRAINE",
+            "phonecode": 380,
+            "arabic_name": "UKRAINE",
+            "flag": "/flags/ua.png"
+        },
+        {
+            "code": "GB",
+            "name": "UNITED KINGDOM",
+            "phonecode": 44,
+            "arabic_name": "UNITED KINGDOM",
+            "flag": "/flags/gb.png"
+        },
+        {
+            "code": "US",
+            "name": "UNITED STATES",
+            "phonecode": 1,
+            "arabic_name": "UNITED STATES",
+            "flag": "/flags/us.png"
+        },
+        {
+            "code": "UM",
+            "name": "UNITED STATES MINOR OUTLYING ISLANDS",
+            "phonecode": 1,
+            "arabic_name": "UNITED STATES MINOR OUTLYING ISLANDS",
+            "flag": "/flags/um.png"
+        },
+        {
+            "code": "UY",
+            "name": "URUGUAY",
+            "phonecode": 598,
+            "arabic_name": "URUGUAY",
+            "flag": "/flags/uy.png"
+        },
+        {
+            "code": "UZ",
+            "name": "UZBEKISTAN",
+            "phonecode": 998,
+            "arabic_name": "UZBEKISTAN",
+            "flag": "/flags/uz.png"
+        },
+        {
+            "code": "VU",
+            "name": "VANUATU",
+            "phonecode": 678,
+            "arabic_name": "VANUATU",
+            "flag": "/flags/vu.png"
+        },
+        {
+            "code": "VE",
+            "name": "VENEZUELA",
+            "phonecode": 58,
+            "arabic_name": "VENEZUELA",
+            "flag": "/flags/ve.png"
+        },
+        {
+            "code": "VN",
+            "name": "VIET NAM",
+            "phonecode": 84,
+            "arabic_name": "VIET NAM",
+            "flag": "/flags/vn.png"
+        },
+        {
+            "code": "VG",
+            "name": "VIRGIN ISLANDS, BRITISH",
+            "phonecode": 1284,
+            "arabic_name": "VIRGIN ISLANDS, BRITISH",
+            "flag": "/flags/vg.png"
+        },
+        {
+            "code": "VI",
+            "name": "VIRGIN ISLANDS, U.S.",
+            "phonecode": 1340,
+            "arabic_name": "VIRGIN ISLANDS, U.S.",
+            "flag": "/flags/vi.png"
+        },
+        {
+            "code": "WF",
+            "name": "WALLIS AND FUTUNA",
+            "phonecode": 681,
+            "arabic_name": "WALLIS AND FUTUNA",
+            "flag": "/flags/wf.png"
+        },
+        {
+            "code": "EH",
+            "name": "WESTERN SAHARA",
+            "phonecode": 212,
+            "arabic_name": "WESTERN SAHARA",
+            "flag": "/flags/eh.png"
+        },
+        {
+            "code": "YE",
+            "name": "YEMEN",
+            "phonecode": 967,
+            "arabic_name": "YEMEN",
+            "flag": "/flags/ye.png"
+        },
+        {
+            "code": "ZM",
+            "name": "ZAMBIA",
+            "phonecode": 260,
+            "arabic_name": "ZAMBIA",
+            "flag": "/flags/zm.png"
+        },
+        {
+            "code": "ZW",
+            "name": "ZIMBABWE",
+            "phonecode": 263,
+            "arabic_name": "ZIMBABWE",
+            "flag": "/flags/zw.png"
+        }
+    ]
+}

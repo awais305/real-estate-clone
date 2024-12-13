@@ -1,0 +1,77 @@
+a {
+  text-decoration: none;
+}
+
+.dropdown_menu {
+  padding: 3px 0;
+  position: fixed;
+  /* width: 150px; */
+  top: calc(var(--appbarHeight) - 7px);
+  right: 80px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px 0px #00000026;
+  z-index: 100; /* +1 the z-index of appbar */
+}
+
+@media only screen and (max-width: 820px) {
+  .dropdown_menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+}
+
+.dropdown_menu::before {
+  content: "";
+  /* position: absolute; */
+  top: -5px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  transform: rotate(45deg);
+}
+
+.dropdown_menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 0.2s ease;
+}
+
+.dropdown_menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: all 0.2s ease;
+}
+
+.dropdownItem:not(:first-child) {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dropdownItem:hover {
+  background-color: var(--hoverColor);
+  cursor: pointer;
+}
+
+.dropdownItem:hover img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dropdownItem {
+  display: flex;
+  transition: all 0.5s;
+  padding: 11px;
+  font-size: 14px;
+  font-weight: 400;
+  /* margin: 10px auto; */
+}
+
+.dropdownItem img {
+  max-width: 20px;
+  /* margin-right: 10px; */
+  opacity: 0.5;
+  transition: all ease 0.5s;
+}
